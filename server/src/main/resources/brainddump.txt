@@ -1,0 +1,5 @@
+security oauth
+reactive api // (websocket or rsocket) / reactive postgres / spring reactor
+java 14 features
+it seems rsocket is an alternative to reactive resttemplate (webclient)
+
