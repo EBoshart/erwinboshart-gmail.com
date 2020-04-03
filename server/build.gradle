@@ -1,8 +1,25 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url 'https://repo.spring.io/milestone' }
+
+    }
+    dependencies {
+        // You are telling gradle that this script (Not the project) depends on the
+        // following plugin
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:2.3.0.M3"
+    }
+}
+
+
 plugins {
-    id 'org.springframework.boot' version '2.3.0.M3'
+//    id 'org.springframework.boot' version '2.3.0.M3'
     id 'io.spring.dependency-management' version '1.0.9.RELEASE'
     id 'java'
 }
+
+apply plugin: "org.springframework.boot"
+
 
 group = 'com.gramby'
 version = '0.0.1-SNAPSHOT'
