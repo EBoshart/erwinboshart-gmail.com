@@ -1,10 +1,10 @@
-package com.gramby.client;
+package com.gramby.pictionary;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MovieBookRaterClientTests {
+class PictionaryClientTests {
 
     @Test
     void contextLoads() {
